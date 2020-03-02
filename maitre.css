@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    padding-bottom: 30px;
+    background-color:ghostwhite;
+}
+
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+input{
+    text-align: left;
+    border-radius: 90px;
+    border-style:dotted;
+    background-color:ghostwhite;
+    
+}
+
+form{
+    font-family:monospace;
+    font-size: 1.6em;
+    font-weight: 900;
+
+}
+.tipo{
+    tab-size: 4;
+}
+
+
+
+.r{
+    padding-left: 70px;
+
+}
+.btn{
+    background-color: wheat;
+    width: 20%;
+    font-size: 19px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+.foo{
+    background-color:rgba(5,21,21,0.9);
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 430px;
+    border-radius: 19px;
+   
+    
+}

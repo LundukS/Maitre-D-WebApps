@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="maitre.css">
+    <title>Maitre-D Practice App</title>
+
+
+
+
+</head>
+
+<body>
+
+    
+
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2"></div>
+            
+            <div class="col-sm-8 col-md-6 col-lg-6">
+                <header style="text-align: center;">
+                    <h1>Maitre D</h1>
+                </header>
+                <hr>
+                <form>
+                    <label for="total" margin: 20px>Total: </label>
+                    <input type="number" id="total" required><br><br><br>
+                    <label for="tip" id="tipo"> Tip: </label><span id="t"></span>
+                    <label class="r" id="ro">Rate: </label><input type="number" id="rate" required><br><br>
+                    <label for="tax" id="taxo">Tax: </label><span id="sam">5.50%</span> <br><br>
+                    <label for="gt" id="gto">Grand Total:</label><span id="sum"></span>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit" class="btn" onclick="calculate()">Calculate</button>
+                </form>
+
+
+            </div>
+        </div>
+
+
+    <script src="maitre.js"></script>
+
+
+
+</body>
+<footer class="foo">XYZ Restaurant and Bar</footer>
+
+
+
+
+</html>
